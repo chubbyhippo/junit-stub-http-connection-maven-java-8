@@ -33,7 +33,7 @@ public class StubHttpURLConnection extends HttpURLConnection {
 					+ " if doInput=false (call setDoInput(true))");
 		}
 		ByteArrayInputStream readStream = new ByteArrayInputStream(
-				new String("<h1>It workds</h1>").getBytes());
+				new String("<h1>It works</h1>").getBytes());
 		return readStream;
 	}
 
